@@ -1,0 +1,45 @@
+.pie-chart-card-container {
+  height: 130px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.pie-chart-card-title-container {
+  margin: 40px 0 0 15px;
+}
+
+.total-sale-value {
+  color: var(--primary-color);
+  font-size: 36px;
+}
+
+.total-sales-text {
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.filter-input {
+  padding: 15px;
+  margin-left: 40px
+}
+
+@media screen and (min-width: 576px) {
+  .pie-chart-card-container {
+    margin: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pie-chart-card-container {
+    margin: 40px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pie-chart-card-container {
+    margin: 40px 120px;
+  }
+}
+
+

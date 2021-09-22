@@ -5,14 +5,8 @@
 :root {
   --primary-color: #334AC3;
   --background-color: #E5E5E5;
-  --secondary-color: #1b2531;
-  --light-color: #e9e9e9;
-  --grey-light-50-color: #9aaabe;
-  --grey-light-100-color: #949494;
-  --grey-light-125-color: #72849A;
-  --grey-light-150-color: #384459;
+  --secondary-color: #8D8D8D;
 
-  --green-color: #08b976;
   --white-color: #FFF;
 }
 
@@ -33,7 +27,8 @@ h6 {
 }
 
 .base-card {
-  background: var(--primary-color);
-  border-radius: 10px;
+  background: var(--white-color);
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 

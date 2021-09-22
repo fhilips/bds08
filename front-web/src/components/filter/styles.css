@@ -1,0 +1,31 @@
+.filter-container {
+  height: 130px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-input {
+  padding: 15px;
+  margin-left: 40px
+}
+
+@media screen and (min-width: 576px) {
+  .filter-container {
+    margin: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .filter-container {
+    margin: 40px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-container {
+    margin: 40px 120px;
+  }
+}
+
+
